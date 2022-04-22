@@ -1,0 +1,27 @@
+:root {
+    /*Primary Colors*/
+    --Pale_blue: hsl(225, 100%, 94%);
+    --Bright_blue: hsl(245, 75%, 52%);
+
+    /* Neutral Colors */
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    background-color: var(--Pale_blue);
+    line-height: 1.4;
+}
+
+
+
+/** Card **/
